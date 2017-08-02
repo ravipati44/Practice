@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">FragmentUIExp</string>
+
+    <string-array name="chapters">
+        <item>Activities</item>
+        <item>Services</item>
+        <item>ContentProviders</item>
+        <item>Intent and Intent Filters</item>
+    </string-array>
+
+    <string-array name="description">
+        <item>An activity represents a single screen with a user interface just like window or frame of Java.Android activity is the subclass of ContextThemeWrapper class.</item>
+        <item>A service is a component that runs in the background to perform long-running operations without needing to interact with the user and it works even if application is destroyed. A service can essentially take two states</item>
+        <item>
+            A content provider component supplies data from one application to others on request. Such requests are handled by the methods of the ContentResolver class. A content provider can use different ways to store its data and the data can be stored in a database, in files, or even over a network.
+        </item>
+        <item>The intent itself, an Intent object, is a passive data structure holding an abstract description of an operation to be performed.
+    </item>
+    </string-array>
+</resources>
