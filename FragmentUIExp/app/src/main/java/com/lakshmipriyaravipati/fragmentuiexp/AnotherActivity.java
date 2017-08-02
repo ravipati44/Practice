@@ -15,7 +15,7 @@ public class AnotherActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_another);
 
-        int index=getIntent().getIntExtra("index",0);
+        int index=getIntent().getIntExtra("index",1);
         FragmentB f2=(FragmentB)getFragmentManager().findFragmentById(R.id.fragment2);
         if(f2!=null){
             f2.changeData(index);
